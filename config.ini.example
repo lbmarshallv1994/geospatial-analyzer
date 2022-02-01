@@ -1,0 +1,16 @@
+[API]
+key = my_api_key
+geocode_url = http://dev.virtualearth.net/REST/v1/Locations/US
+geospatial_url = http://platform.bing.com/geo/spatial/v1/public/Geodata
+curate_polys = 1
+format = json
+county_entity_type = AdminDivision2
+muni_entity_type = PopulatedPlace
+get_all = 1
+get_metadata = 1
+culture = en-us
+user_region = US
+spatial_filter = GetBoundary
+minimum_confidence = High
+locality_match_confidence_adjustment = true
+user_location = my_longitude,my_latitude
